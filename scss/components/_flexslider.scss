@@ -1,0 +1,212 @@
+// Custom variables\
+//$flexsliderheight-large: 650px;
+//$flexsliderheight-medium: 580px;
+//$flexsliderheight-small: 400px;
+
+
+//$body-font-color: #666;
+
+.flexslider {
+	margin-bottom: 0;
+}
+/*
+Bollarna om de behövs
+*/
+.flex-control-nav {
+    bottom: -43px;
+ }
+.flex-control-paging li a {
+    /*background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;*/
+    background: none;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 1px solid $mediumblue;
+    cursor: pointer;
+    display: block;
+    height: 14px;
+    /*text-indent: -9999px;*/
+    width: 14px;
+}
+.flex-control-nav li{
+	margin: 0 8px;
+    /*bottom: 10px;*/
+    /*z-index: 100;*/
+}
+.flex-control-paging li a {
+    /*bac/kground: none 0 0 repeat scroll rgba(255, 255, 255, 0.9);*/
+    /*box-shadow: none;*/
+}
+.flex-control-paging li a:hover {
+    background: $mediumblue; 
+}
+.flex-control-paging li a.flex-active {
+    background: $mediumblue;  
+}
+
+/*bläddringspilar\*/
+.flex-direction-nav a.flex-next::before {
+    /*content: none;*/
+    
+}
+.slides flex-next{
+	/*overflow: hidden;*/
+}
+.flex-direction-nav a::before,
+.flex-direction-nav a::after {
+    color: rgba(0, 0, 0, 0.8);
+    content: none !important;
+    display: inline-block;
+    font-family: Arial;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+ul.flex-direction-nav a{
+	font-size: 3rem;
+	color: #fff;
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+	line-height: 3rem;
+	
+	width: 56px;
+	height: 56px;
+	top: 43%;
+}
+a.flex-next{
+	background: url("../images/PilMeny28.png") no-repeat center center;
+}
+a.flex-prev{
+	background: url("../images/PilMenyV28.png") no-repeat center center;
+}
+
+.flexslider{
+	border:  0;
+}
+.flex-slider{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	border: 0;
+}
+.flex-slider .flex-big-image{
+	background-size: cover;
+	background-position: center top;
+	width: 100%;
+}
+
+.flex-slider .extra-wrapper{
+	position: absolute;
+	z-index: 1111;
+	top: 0;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.flex-slider .flex-text{
+	position: absolute;
+	/*bottom: 3.5rem;*/
+	top: 35%;
+	/*color: #fff;*/
+	width: 100%;
+	text-align: center;
+}
+.flex-slider .flex-text h3,.flex-slider .flex-text h2{
+	color: #fff;
+}
+.flex-slider .flex-text span{
+	background: $mediumblue;
+	padding: 1rem 1.7rem 0.6rem;
+	border-radius: 30px;
+}
+.flex-slider .flex-text h2{
+	font-size: 1.7rem;
+	margin-bottom: 2rem;
+}
+.flex-slider .flex-text h3{
+	text-shadow: 2px 2px 7px #333;
+	font-size: 4rem;
+	line-height: 4rem;
+}
+.flex-slider .flex-text p{
+	font-family: Arial, serif;
+	font-weight: 400;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 4px #000;
+}
+
+
+.flexslider .flex-direction-nav a{
+    display: block;
+}
+@media only screen and (min-width: 64.063em){ 
+	.flex-slider .flex-big-image{
+		height:  580px;
+	}
+	.flex-control-nav{
+		/*display:  none;*/
+	}
+	
+	.flex-slider .extra-wrapper{
+		min-height: 580px;
+		height:auto !important; 
+	}
+	
+	.flex-slider .flex-text p{
+		font-size: 2.6rem;
+		line-height: 3.5rem;
+	}
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	
+	.flex-slider .flex-big-image{
+		height:  480px;
+	}
+	.flex-control-nav{
+		/*display:  none;*/
+	}
+	
+	.flex-slider .extra-wrapper{
+		min-height: 480px;
+		
+	}
+	.flex-slider .flex-text p{
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+	}
+}
+@media only screen and (max-width: 40em) { 
+	.flex-slider .flex-big-image{
+		height:  400px;
+	}
+	
+	.flex-direction-nav{
+		display: none;	
+	}
+	.flex-slider .extra-wrapper{
+		min-height: 400px;
+		height:auto !important; 
+		height: 400px;
+	}
+	.flex-slider .flex-text{
+		padding-right: 1rem;
+		padding-left: 1rem;
+		top: 25%;
+	}
+	.flex-slider .flex-text p{
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+	}
+	.flex-slider .flex-text h3{
+		font-size: 2.6rem;
+		line-height: 2.8rem;
+	}
+	.flex-slider .flex-text span{
+		padding: 0.8rem 1.4rem 0.6rem;
+		border-radius: 20px;
+	}
+	.flex-slider .flex-text h2{
+		font-size: 1.3rem;
+		margin-bottom: 2rem;
+	}
+}

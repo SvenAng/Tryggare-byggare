@@ -1,0 +1,128 @@
+/*bakgrundsbilder*/
+.node-page .image1{
+	background: url('../images/image1.jpg');
+}
+.node-page .image-damm{
+	background: url('../images/big-damm.jpg');
+}
+.node-page .image-hojd{
+	background: url('../images/big-hojd.jpg');
+}
+.node-page .image-vibration{
+	background: url('../images/big-vibration.jpg');
+}
+.node-page .image-lyft{
+	background: url('../images/big-lyft.jpg');
+}
+.node-page .image-buller{
+	background: url('../images/big-buller.jpg');
+}
+.node-page .image-tungt{
+	background: url('../images/big-tungt.jpg');
+}
+.node-page .image-el{
+	background: url('../images/big-el.jpg');
+}
+
+.node-page {
+	/*margin-bottom: $column-gutter;*/
+	
+	.columns{
+		padding-left: 0;
+	}
+	
+	p{
+		line-height: 1.5rem;
+		/*margin-bottom: 0;*/
+	}
+	.row{
+		padding: $column-gutter*1.5;
+		
+	}
+	.background{
+		background-repeat:no-repeat;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-position:center;
+		padding-top: $column-gutter;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+		p{
+			color: $white;
+		}
+		
+		h2{
+			color: $white;	
+		}
+		h1{
+			color: $white;
+		}
+	}
+
+	.nothing{
+		padding-top: $column-gutter;
+		background: none;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+		.column{
+			padding-left: 0;
+		}
+		
+	}
+	
+	.lightblue{
+		padding-top: $column-gutter;
+		background: $lightblue;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+		.column{
+			padding-left: 0;
+		}
+	}
+	
+	.mediumblue{
+		background: $mediumblue;
+		padding-top: $column-gutter;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+		.column{
+			padding-left: 0;
+		}
+	}
+	
+	.darkblue{
+		padding-top: $column-gutter;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+		background: $darkblue; 
+		
+		p{
+			color: $white;
+		}
+		
+		h2{
+			color: $lightblue;	
+		}
+		h4{
+			color: $white;	
+		}
+		.columns, .column{
+			padding-left: 0;
+			margin-bottom: $column-gutter/2;
+		}
+		.row{
+			/*padding-top: 0;*/
+		}
+	}
+	
+	
+}
+
+
+
+
+
+
+
