@@ -79,8 +79,26 @@ body{
 	width: 100%;
 	height: auto !important;
 }
-
-
+a.front-readmore,
+a.language-link{
+	color: $white;
+	background: $mediumblue;
+	padding: 0.4rem 1rem;
+	border-radius: 25px;
+	
+}
+.div-front-readmore{
+	text-align: center;
+}
+a.front-readmore:hover,
+a.language-link:hover{
+	background: $darkblue;
+	transition: background-color 300ms ease-out;
+}
+.row.front-page-view{
+	margin-top: $column-gutter; 
+	margin-bottom: $column-gutter*2; 
+}
 .mozaik .row{
 	margin-bottom: $column-gutter;
 }

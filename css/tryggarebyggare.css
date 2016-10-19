@@ -10205,17 +10205,44 @@ body {
   height: auto !important;
 }
 
-/* line 84, ../scss/base/_init.scss */
+/* line 82, ../scss/base/_init.scss */
+a.front-readmore,
+a.language-link {
+  color: #FFFFFF;
+  background: #0098DB;
+  padding: 0.4rem 1rem;
+  border-radius: 25px;
+}
+
+/* line 90, ../scss/base/_init.scss */
+.div-front-readmore {
+  text-align: center;
+}
+
+/* line 93, ../scss/base/_init.scss */
+a.front-readmore:hover,
+a.language-link:hover {
+  background: #003882;
+  transition: background-color 300ms ease-out;
+}
+
+/* line 98, ../scss/base/_init.scss */
+.row.front-page-view {
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+/* line 102, ../scss/base/_init.scss */
 .mozaik .row {
   margin-bottom: 1.25rem;
 }
 
-/* line 87, ../scss/base/_init.scss */
+/* line 105, ../scss/base/_init.scss */
 .mozaik-item {
   position: relative;
 }
 
-/* line 92, ../scss/base/_init.scss */
+/* line 110, ../scss/base/_init.scss */
 .mozaik-text {
   position: absolute;
   top: 0;
@@ -10225,7 +10252,7 @@ body {
   pointer-events: none;
 }
 
-/* line 100, ../scss/base/_init.scss */
+/* line 118, ../scss/base/_init.scss */
 .mozaik-text h3 {
   text-align: center;
   display: block;
@@ -10234,7 +10261,7 @@ body {
   pointer-events: none;
 }
 
-/* line 107, ../scss/base/_init.scss */
+/* line 125, ../scss/base/_init.scss */
 .mozaik-text h3 span {
   color: #FFFFFF;
   background: #0098DB;
@@ -10243,7 +10270,7 @@ body {
   line-height: 1rem;
 }
 
-/* line 114, ../scss/base/_init.scss */
+/* line 132, ../scss/base/_init.scss */
 .mozaik-text p {
   color: #fff;
   text-align: center;
@@ -10252,7 +10279,7 @@ body {
   padding: 0.5rem;
 }
 
-/* line 121, ../scss/base/_init.scss */
+/* line 139, ../scss/base/_init.scss */
 .platta {
   width: 100%;
   height: 100%;
@@ -10266,7 +10293,7 @@ body {
   opacity: 0.45;
 }
 
-/* line 133, ../scss/base/_init.scss */
+/* line 151, ../scss/base/_init.scss */
 .platta:hover {
   opacity: 0.7;
   transition: opacity .25s ease-in-out;
@@ -10274,39 +10301,39 @@ body {
   -webkit-transition: opacity .25s ease-in-out;
 }
 
-/* line 140, ../scss/base/_init.scss */
+/* line 158, ../scss/base/_init.scss */
 ul.language-switcher-locale-url {
   margin: 0;
   padding: 0;
 }
 
-/* line 144, ../scss/base/_init.scss */
+/* line 162, ../scss/base/_init.scss */
 ul.language-switcher-locale-url li {
   list-style: none;
 }
 
-/* line 147, ../scss/base/_init.scss */
+/* line 165, ../scss/base/_init.scss */
 ul.language-switcher-locale-url li.active {
   display: none;
 }
 
-/* line 150, ../scss/base/_init.scss */
+/* line 168, ../scss/base/_init.scss */
 .l-footer {
   text-align: center;
 }
 
-/* line 154, ../scss/base/_init.scss */
+/* line 172, ../scss/base/_init.scss */
 .l-footer-columns-bottom {
   padding-top: 0.625rem;
   margin-top: 0.625rem;
 }
 
-/* line 159, ../scss/base/_init.scss */
+/* line 177, ../scss/base/_init.scss */
 .l-footer-columns-bottom div {
   margin-bottom: 0.41667rem;
 }
 
-/* line 162, ../scss/base/_init.scss */
+/* line 180, ../scss/base/_init.scss */
 .l-footer-columns .footer-fourth .block img {
   width: 28%;
   height: 28%;
@@ -10314,51 +10341,51 @@ ul.language-switcher-locale-url li.active {
   margin-left: 3px;
 }
 
-/* line 168, ../scss/base/_init.scss */
+/* line 186, ../scss/base/_init.scss */
 .l-footer-columns .footer-first .block img {
   height: auto;
 }
 
-/* line 173, ../scss/base/_init.scss */
+/* line 191, ../scss/base/_init.scss */
 .l-footer-columns-bottom p {
   margin: 0;
   line-height: 1.4;
 }
 
-/* line 177, ../scss/base/_init.scss */
+/* line 195, ../scss/base/_init.scss */
 .l-featured-i .invisible-plug {
   display: block;
   height: 1rem;
 }
 
-/* line 181, ../scss/base/_init.scss */
+/* line 199, ../scss/base/_init.scss */
 .top-bar-section {
   float: right;
 }
 
-/* line 184, ../scss/base/_init.scss */
+/* line 202, ../scss/base/_init.scss */
 .sidebar p, .mozaik-event p, .front-right p {
   font-size: 0.9rem;
   line-height: 1.26;
 }
 
-/* line 188, ../scss/base/_init.scss */
+/* line 206, ../scss/base/_init.scss */
 .right-off-canvas-menu {
   background: #A0CFEB;
 }
 
-/* line 192, ../scss/base/_init.scss */
+/* line 210, ../scss/base/_init.scss */
 .right-off-canvas-menu ul {
   margin: 1.2rem 1rem 0.5rem;
 }
 
-/* line 195, ../scss/base/_init.scss */
+/* line 213, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li ul {
   margin-left: 0;
   margin-top: 1rem;
 }
 
-/* line 199, ../scss/base/_init.scss */
+/* line 217, ../scss/base/_init.scss */
 .right-off-canvas-menu li {
   list-style-type: none;
   margin: 0;
@@ -10367,7 +10394,7 @@ ul.language-switcher-locale-url li.active {
   border-bottom: 1px solid #ffffff;
 }
 
-/* line 206, ../scss/base/_init.scss */
+/* line 224, ../scss/base/_init.scss */
 .right-off-canvas-menu li a {
   color: #003882;
   line-height: 0.85rem;
@@ -10376,12 +10403,12 @@ ul.language-switcher-locale-url li.active {
   margin-left: 0.5rem;
 }
 
-/* line 213, ../scss/base/_init.scss */
+/* line 231, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li li a {
   color: #FFFFFF;
 }
 
-/* line 216, ../scss/base/_init.scss */
+/* line 234, ../scss/base/_init.scss */
 .submitted-date {
   border-right: 1px solid #c2c2c2;
   padding-right: 12px;
@@ -10390,7 +10417,7 @@ ul.language-switcher-locale-url li.active {
   margin-bottom: 1rem;
 }
 
-/* line 223, ../scss/base/_init.scss */
+/* line 241, ../scss/base/_init.scss */
 .submitted-date .day, .submitted-date .month, .submitted-date .year {
   text-align: center;
   display: block;
@@ -10398,7 +10425,7 @@ ul.language-switcher-locale-url li.active {
   color: #898989;
 }
 
-/* line 230, ../scss/base/_init.scss */
+/* line 248, ../scss/base/_init.scss */
 .submitted-date .day {
   font-size: 2.2rem;
   line-height: 2rem;
@@ -10406,7 +10433,7 @@ ul.language-switcher-locale-url li.active {
   letter-spacing: -0.9px;
 }
 
-/* line 236, ../scss/base/_init.scss */
+/* line 254, ../scss/base/_init.scss */
 .blog-author {
   color: #898989;
   font-size: 0.7rem;
@@ -10414,25 +10441,25 @@ ul.language-switcher-locale-url li.active {
   text-transform: uppercase;
 }
 
-/* line 242, ../scss/base/_init.scss */
+/* line 260, ../scss/base/_init.scss */
 .node-blog h2 {
   margin: 0;
   font-size: 2.3125rem;
 }
 
-/* line 246, ../scss/base/_init.scss */
+/* line 264, ../scss/base/_init.scss */
 .node-blog h1 {
   margin: 0;
   font-size: 2.3125rem;
 }
 
-/* line 251, ../scss/base/_init.scss */
+/* line 269, ../scss/base/_init.scss */
 .page-blog #page-title,
 .page-blogs #page-title {
   display: none;
 }
 
-/* line 256, ../scss/base/_init.scss */
+/* line 274, ../scss/base/_init.scss */
 .node-blog .teaser-readmore {
   background: #003882;
   color: #fff;
@@ -10442,22 +10469,22 @@ ul.language-switcher-locale-url li.active {
   text-transform: uppercase;
 }
 
-/* line 265, ../scss/base/_init.scss */
+/* line 283, ../scss/base/_init.scss */
 .page-blog .blog-row {
   margin-bottom: 1.25rem;
 }
 
-/* line 270, ../scss/base/_init.scss */
+/* line 288, ../scss/base/_init.scss */
 .flexslider {
   margin-bottom: 1px !important;
 }
 
-/* line 275, ../scss/base/_init.scss */
+/* line 293, ../scss/base/_init.scss */
 .view-omr-des-mozaik {
   padding: 0;
 }
 
-/* line 279, ../scss/base/_init.scss */
+/* line 297, ../scss/base/_init.scss */
 ul.sf-menu li a {
   padding-bottom: 0;
   padding-left: 0.46rem;
@@ -10466,109 +10493,109 @@ ul.sf-menu li a {
   letter-spacing: 0.06rem;
 }
 
-/* line 287, ../scss/base/_init.scss */
+/* line 305, ../scss/base/_init.scss */
 .tab-bar .menu-icon span::after {
   box-shadow: 0 0 0 2px #0098DB, 0 10px 0 2px #0098DB, 0 20px 0 2px #0098DB;
 }
 
-/* line 291, ../scss/base/_init.scss */
+/* line 309, ../scss/base/_init.scss */
 .view-frontpagebanner {
   margin-bottom: 3.125rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
-/* line 297, ../scss/base/_init.scss */
+/* line 315, ../scss/base/_init.scss */
 .content-bottom {
   padding-top: 1.25rem;
   padding-bottom: 2.5rem;
   margin-bottom: 1.25rem;
   background: #003882;
 }
-/* line 302, ../scss/base/_init.scss */
+/* line 320, ../scss/base/_init.scss */
 .content-bottom p {
   color: #FFFFFF;
 }
-/* line 305, ../scss/base/_init.scss */
+/* line 323, ../scss/base/_init.scss */
 .content-bottom a {
   color: #003882;
 }
-/* line 307, ../scss/base/_init.scss */
+/* line 325, ../scss/base/_init.scss */
 .content-bottom a span {
   background: #A0CFEB;
   border-radius: 25px;
   padding: 0.8rem 1.3rem 0.4rem;
 }
-/* line 313, ../scss/base/_init.scss */
+/* line 331, ../scss/base/_init.scss */
 .content-bottom a:hover {
   color: #003882;
 }
-/* line 315, ../scss/base/_init.scss */
+/* line 333, ../scss/base/_init.scss */
 .content-bottom a:hover span {
   background: #FFFFFF;
   transition: background .25s ease-in-out;
   -moz-transition: background .25s ease-in-out;
   -webkit-transition: background .25s ease-in-out;
 }
-/* line 323, ../scss/base/_init.scss */
+/* line 341, ../scss/base/_init.scss */
 .content-bottom h3 {
   margin-top: 2.5rem;
 }
 
-/* line 329, ../scss/base/_init.scss */
+/* line 347, ../scss/base/_init.scss */
 .footer-second li {
   text-align: right;
 }
 
-/* line 332, ../scss/base/_init.scss */
+/* line 350, ../scss/base/_init.scss */
 .tab-bar .menu-icon span::after {
   left: 0;
 }
 
 /*Interaktiva delar\*/
-/* line 336, ../scss/base/_init.scss */
+/* line 354, ../scss/base/_init.scss */
 .interactive-iframe {
   /*width: 600px;*/
   border: none;
 }
 
-/* line 340, ../scss/base/_init.scss */
+/* line 358, ../scss/base/_init.scss */
 .interactive-iframe.dust {
   height: 400px;
   width: 600px;
 }
 
-/* line 344, ../scss/base/_init.scss */
+/* line 362, ../scss/base/_init.scss */
 .interactive-iframe.height {
   height: 450px;
   width: 600px;
 }
 
-/* line 348, ../scss/base/_init.scss */
+/* line 366, ../scss/base/_init.scss */
 .interactive-iframe.vibrations {
   height: 440px;
   width: 600px;
 }
 
-/* line 352, ../scss/base/_init.scss */
+/* line 370, ../scss/base/_init.scss */
 .interactive-iframe.safelift {
   height: 340px;
   width: 600px;
 }
 
-/* line 356, ../scss/base/_init.scss */
+/* line 374, ../scss/base/_init.scss */
 .interactive-iframe.noise {
   height: 360px;
   width: 600px;
 }
 
-/* line 360, ../scss/base/_init.scss */
+/* line 378, ../scss/base/_init.scss */
 .interactive-iframe.heavywork {
   height: 340px;
   width: 600px;
 }
 
-/* line 364, ../scss/base/_init.scss */
+/* line 382, ../scss/base/_init.scss */
 .interactive-iframe.energy {
   height: 350px;
   width: 600px;
@@ -10576,111 +10603,111 @@ ul.sf-menu li a {
 
 /*Overrides, extra mediaqueries*/
 @media only screen and (min-width: 60.063em) {
-  /* line 371, ../scss/base/_init.scss */
+  /* line 389, ../scss/base/_init.scss */
   .title-slogan {
     margin-top: 2rem;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 60em) {
-  /* line 378, ../scss/base/_init.scss */
+  /* line 396, ../scss/base/_init.scss */
   .title-slogan {
     margin-top: 4rem;
   }
 
-  /* line 381, ../scss/base/_init.scss */
+  /* line 399, ../scss/base/_init.scss */
   .l-main {
     margin-top: 120px;
   }
 
-  /* line 384, ../scss/base/_init.scss */
+  /* line 402, ../scss/base/_init.scss */
   .l-header-region .logo-wrapper {
     margin: 0;
     padding: 0;
   }
 
-  /* line 388, ../scss/base/_init.scss */
+  /* line 406, ../scss/base/_init.scss */
   .mozaik-text h3 {
     font-size: 0.9rem;
   }
 
-  /* line 391, ../scss/base/_init.scss */
+  /* line 409, ../scss/base/_init.scss */
   .mozaik-text p {
     font-size: 0.9rem;
     line-height: 1.1rem;
     /*padding-top: 0;*/
   }
 
-  /* line 396, ../scss/base/_init.scss */
+  /* line 414, ../scss/base/_init.scss */
   .mozaik-text h3 span {
     border-radius: 18px;
     padding: 0.6rem 0.9rem 0.4rem;
   }
 
-  /* line 400, ../scss/base/_init.scss */
+  /* line 418, ../scss/base/_init.scss */
   .mozaik-text {
     top: 28%;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 406, ../scss/base/_init.scss */
+  /* line 424, ../scss/base/_init.scss */
   .title-slogan {
     margin-top: 1rem;
   }
 
-  /* line 409, ../scss/base/_init.scss */
+  /* line 427, ../scss/base/_init.scss */
   .l-main {
     margin-top: 70px;
   }
 
-  /* line 412, ../scss/base/_init.scss */
+  /* line 430, ../scss/base/_init.scss */
   .l-header-region .logo-wrapper {
     margin: 0;
     padding: 0;
   }
 
-  /* line 416, ../scss/base/_init.scss */
+  /* line 434, ../scss/base/_init.scss */
   .l-header {
     padding-bottom: 0.625rem;
     padding-top: 0.625rem;
   }
 
-  /* line 420, ../scss/base/_init.scss */
+  /* line 438, ../scss/base/_init.scss */
   .node-page img {
     margin-top: 1.25rem;
   }
 
-  /* line 424, ../scss/base/_init.scss */
+  /* line 442, ../scss/base/_init.scss */
   .mozaik-item img {
     width: 100%;
   }
 
-  /* line 427, ../scss/base/_init.scss */
+  /* line 445, ../scss/base/_init.scss */
   .mozaik-item {
     margin-bottom: 1.25rem;
   }
 
-  /* line 430, ../scss/base/_init.scss */
+  /* line 448, ../scss/base/_init.scss */
   .mozaik .row {
     margin-bottom: 0;
   }
 
-  /* line 433, ../scss/base/_init.scss */
+  /* line 451, ../scss/base/_init.scss */
   .mozaik-text {
     top: 30%;
   }
 
-  /* line 436, ../scss/base/_init.scss */
+  /* line 454, ../scss/base/_init.scss */
   .mozaik-text h3 {
     font-size: 1.4rem;
   }
 
-  /* line 439, ../scss/base/_init.scss */
+  /* line 457, ../scss/base/_init.scss */
   .mozaik-text p {
     font-size: 1.4rem;
     line-height: 1.4rem;
   }
 
-  /* line 443, ../scss/base/_init.scss */
+  /* line 461, ../scss/base/_init.scss */
   .mozaik-text h3 span {
     border-radius: 20px;
     padding: 0.8rem 1.3rem 0.5rem;
