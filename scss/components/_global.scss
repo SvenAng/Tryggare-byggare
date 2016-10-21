@@ -251,13 +251,11 @@ $info-color: #a0d3e8 !default;      // cornflower
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 
 @font-face {
-    font-family: Bureau;
-    src: url(../fonts/BureauGrotCond-Medium.otf);
-    /*font-family: BebasNeue;*/
-    /*src: url(../fonts/BebasNeue.otf);*/
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue.otf);
 }
 
-$font-family-sans-serif: Bureau, Arial, sans-serif !default;
+$font-family-sans-serif: BebasNeue, Arial, sans-serif !default;
 $font-family-serif: Cambria, "Times New Roman", Times, serif !default;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
 
