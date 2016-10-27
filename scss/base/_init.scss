@@ -1,4 +1,4 @@
-/*Sven Ängermark Monoclick 2016*/
+/*Sven Ängermark Monoclick 2016 */
 
 body{
 	background: #fff;
@@ -16,7 +16,13 @@ body{
 .main{
 	padding: 0;	
 }
-
+.right-off-canvas-menu{
+//    position: relative;
+   
+}
+.right-off-canvas-menu ul{
+//    position: fixed;
+}
 .etta-padding{
 	padding-left: $column-gutter;
 	padding-right: $column-gutter;
@@ -60,6 +66,8 @@ body{
 .l-header-region .logo-wrapper{
 	padding: 0;
 	margin-bottom: $column-gutter*1.5;
+    padding-left: $column-gutter/2;
+    padding-right: $column-gutter/2;
 }
 
 .l-header-region .logo .columns{
@@ -97,6 +105,7 @@ a.language-link{
 	background: $mediumblue;
 	padding: 0.4rem 1rem;
 	border-radius: 25px;
+    
 	
 }
 .div-front-readmore{
@@ -167,9 +176,18 @@ a.language-link:hover{
 	-webkit-transition: opacity .25s ease-in-out;
 	
 }
+.footer-wrapper{
+    margin-top: $column-gutter; 
+}
+
+.footer-wrapper .l-footer-columns .footer-first img{
+    width: 296px !important;
+    height: auto !important;
+}
 ul.language-switcher-locale-url{
-	margin: 0;
-	padding: 0;	
+//	margin: 0;
+//	padding: 0;
+    margin-top: 0.3rem;
 }
 ul.language-switcher-locale-url li{
 	list-style: none;
@@ -478,5 +496,7 @@ ul.sf-menu li a {
 		border-radius: 20px;
 		padding: 0.8rem 1.3rem 0.5rem;
 	}
-	
+    .footer-second li {
+        text-align: center;
+    }
 }

@@ -113,6 +113,7 @@ $menu-slide: "transform 500ms ease" !default;
   @include kill-flicker;
   * { @include kill-flicker; }
   width: $off-canvas-width;
+    
   top: 0;
   bottom: 0;
   position: absolute;
