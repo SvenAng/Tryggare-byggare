@@ -42,7 +42,7 @@ body{
 .l-header{
 	padding-top:$column-gutter*1.5;
 	padding-bottom:$column-gutter;
-	
+	border-bottom: 1px $lightblue solid; 
 	background: #fff;
 	width: 100%;
 }
@@ -67,9 +67,21 @@ body{
 	margin-bottom:$column-gutter*2;
 }
 .logo{
-	padding-left: 0;
+//	padding-left: 0;
+    
 }
-
+.logo img{
+    width: 425px;
+    height: auto;
+}
+.tbguiden-logo{
+    text-align: right;
+}
+.tbguiden-logo img{
+    width: 90px;
+    height: auto;
+//    height: 159px;
+}
 .l-triptych{
 	padding-left: $column-gutter;
 	padding-right: $column-gutter;
@@ -418,10 +430,14 @@ ul.sf-menu li a {
 	.mozaik-text{
 		top: 28%;
 	}
+    
 	
 }
 @media only screen and (max-width: 40em) { 
-	.title-slogan{
+    .logo{
+        margin-top: 0.8rem;
+    }
+    .title-slogan{
 		margin-top: 1rem;
 	}
 	.l-main{
