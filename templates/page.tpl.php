@@ -143,7 +143,17 @@
 
     <?php if (!empty($page['triptych_first']) || !empty($page['triptych_second']) || !empty($page['mozaik'])): ?>
     <!--.triptych-->
-    <section class="row l-triptych">
+    <section class="row l-triptych mobile-banner show-for-small-down">
+        <div class="content-mozaik-small">
+            <?php print render($page['mozaik_small']); ?>
+        </div>
+    </section>
+    <section class="row l-triptych desktop-banner hide-for-small-down">
+        <div class="content-mozaik-medium-up">
+            <?php print render($page['mozaik_medium_up']); ?>
+        </div>
+    </section>
+    <section class="row l-triptych mozaik-triptych">
         <div class="content-mozaik">
             <?php print render($page['mozaik']); ?>
         </div>

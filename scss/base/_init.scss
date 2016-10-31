@@ -93,6 +93,7 @@ body{
 .l-triptych{
 	padding-left: $column-gutter;
 	padding-right: $column-gutter;
+    margin-bottom: $column-gutter;
 }
 
 .l-triptych img{
@@ -123,6 +124,11 @@ a.language-link:hover{
 .mozaik .row{
 	margin-bottom: $column-gutter;
 }
+
+.mozaik-triptych{
+    margin-bottom: 0;
+}
+
 .mozaik-item{
 	position: relative;
 	
@@ -146,7 +152,7 @@ a.language-link:hover{
 .mozaik-text h3 span{
 	color: $white;
 	background: $mediumblue;
-	padding: 0.8rem 1.3rem 0.4rem;
+	padding: 0.6rem 1.3rem 0.4rem;
 	border-radius: 25px;
 	line-height: 1rem;
 }

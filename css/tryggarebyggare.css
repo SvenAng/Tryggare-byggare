@@ -10194,15 +10194,16 @@ body {
 .l-triptych {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
-/* line 98, ../scss/base/_init.scss */
+/* line 99, ../scss/base/_init.scss */
 .l-triptych img {
   width: 100%;
   height: auto !important;
 }
 
-/* line 102, ../scss/base/_init.scss */
+/* line 103, ../scss/base/_init.scss */
 a.front-readmore,
 a.language-link {
   color: #FFFFFF;
@@ -10211,35 +10212,40 @@ a.language-link {
   border-radius: 25px;
 }
 
-/* line 111, ../scss/base/_init.scss */
+/* line 112, ../scss/base/_init.scss */
 .div-front-readmore {
   text-align: center;
 }
 
-/* line 114, ../scss/base/_init.scss */
+/* line 115, ../scss/base/_init.scss */
 a.front-readmore:hover,
 a.language-link:hover {
   background: #003882;
   transition: background-color 300ms ease-out;
 }
 
-/* line 119, ../scss/base/_init.scss */
+/* line 120, ../scss/base/_init.scss */
 .row.front-page-view {
   margin-top: 1.25rem;
   margin-bottom: 2.5rem;
 }
 
-/* line 123, ../scss/base/_init.scss */
+/* line 124, ../scss/base/_init.scss */
 .mozaik .row {
   margin-bottom: 1.25rem;
 }
 
-/* line 126, ../scss/base/_init.scss */
+/* line 128, ../scss/base/_init.scss */
+.mozaik-triptych {
+  margin-bottom: 0;
+}
+
+/* line 132, ../scss/base/_init.scss */
 .mozaik-item {
   position: relative;
 }
 
-/* line 131, ../scss/base/_init.scss */
+/* line 137, ../scss/base/_init.scss */
 .mozaik-text {
   position: absolute;
   top: 0;
@@ -10249,7 +10255,7 @@ a.language-link:hover {
   pointer-events: none;
 }
 
-/* line 139, ../scss/base/_init.scss */
+/* line 145, ../scss/base/_init.scss */
 .mozaik-text h3 {
   text-align: center;
   display: block;
@@ -10258,16 +10264,16 @@ a.language-link:hover {
   pointer-events: none;
 }
 
-/* line 146, ../scss/base/_init.scss */
+/* line 152, ../scss/base/_init.scss */
 .mozaik-text h3 span {
   color: #FFFFFF;
   background: #0098DB;
-  padding: 0.8rem 1.3rem 0.4rem;
+  padding: 0.6rem 1.3rem 0.4rem;
   border-radius: 25px;
   line-height: 1rem;
 }
 
-/* line 153, ../scss/base/_init.scss */
+/* line 159, ../scss/base/_init.scss */
 .mozaik-text p {
   color: #fff;
   text-align: center;
@@ -10276,7 +10282,7 @@ a.language-link:hover {
   padding: 0.5rem;
 }
 
-/* line 160, ../scss/base/_init.scss */
+/* line 166, ../scss/base/_init.scss */
 .platta {
   width: 100%;
   height: 100%;
@@ -10290,7 +10296,7 @@ a.language-link:hover {
   opacity: 0.45;
 }
 
-/* line 172, ../scss/base/_init.scss */
+/* line 178, ../scss/base/_init.scss */
 .platta:hover {
   opacity: 0.7;
   transition: opacity .25s ease-in-out;
@@ -10298,49 +10304,49 @@ a.language-link:hover {
   -webkit-transition: opacity .25s ease-in-out;
 }
 
-/* line 179, ../scss/base/_init.scss */
+/* line 185, ../scss/base/_init.scss */
 .footer-wrapper {
   margin-top: 1.25rem;
 }
 
-/* line 183, ../scss/base/_init.scss */
+/* line 189, ../scss/base/_init.scss */
 .footer-wrapper .l-footer-columns .footer-first img {
   width: 296px !important;
   height: auto !important;
 }
 
-/* line 187, ../scss/base/_init.scss */
+/* line 193, ../scss/base/_init.scss */
 ul.language-switcher-locale-url {
   margin-top: 0.3rem;
 }
 
-/* line 192, ../scss/base/_init.scss */
+/* line 198, ../scss/base/_init.scss */
 ul.language-switcher-locale-url li {
   list-style: none;
 }
 
-/* line 195, ../scss/base/_init.scss */
+/* line 201, ../scss/base/_init.scss */
 ul.language-switcher-locale-url li.active {
   display: none;
 }
 
-/* line 198, ../scss/base/_init.scss */
+/* line 204, ../scss/base/_init.scss */
 .l-footer {
   text-align: center;
 }
 
-/* line 202, ../scss/base/_init.scss */
+/* line 208, ../scss/base/_init.scss */
 .l-footer-columns-bottom {
   padding-top: 0.625rem;
   margin-top: 0.625rem;
 }
 
-/* line 207, ../scss/base/_init.scss */
+/* line 213, ../scss/base/_init.scss */
 .l-footer-columns-bottom div {
   margin-bottom: 0.41667rem;
 }
 
-/* line 210, ../scss/base/_init.scss */
+/* line 216, ../scss/base/_init.scss */
 .l-footer-columns .footer-fourth .block img {
   width: 28%;
   height: 28%;
@@ -10348,51 +10354,51 @@ ul.language-switcher-locale-url li.active {
   margin-left: 3px;
 }
 
-/* line 216, ../scss/base/_init.scss */
+/* line 222, ../scss/base/_init.scss */
 .l-footer-columns .footer-first .block img {
   height: auto;
 }
 
-/* line 221, ../scss/base/_init.scss */
+/* line 227, ../scss/base/_init.scss */
 .l-footer-columns-bottom p {
   margin: 0;
   line-height: 1.4;
 }
 
-/* line 225, ../scss/base/_init.scss */
+/* line 231, ../scss/base/_init.scss */
 .l-featured-i .invisible-plug {
   display: block;
   height: 1rem;
 }
 
-/* line 229, ../scss/base/_init.scss */
+/* line 235, ../scss/base/_init.scss */
 .top-bar-section {
   float: right;
 }
 
-/* line 232, ../scss/base/_init.scss */
+/* line 238, ../scss/base/_init.scss */
 .sidebar p, .mozaik-event p, .front-right p {
   font-size: 0.9rem;
   line-height: 1.26;
 }
 
-/* line 236, ../scss/base/_init.scss */
+/* line 242, ../scss/base/_init.scss */
 .right-off-canvas-menu {
   background: #A0CFEB;
 }
 
-/* line 240, ../scss/base/_init.scss */
+/* line 246, ../scss/base/_init.scss */
 .right-off-canvas-menu ul {
   margin: 1.2rem 1rem 0.5rem;
 }
 
-/* line 243, ../scss/base/_init.scss */
+/* line 249, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li ul {
   margin-left: 0;
   margin-top: 1rem;
 }
 
-/* line 247, ../scss/base/_init.scss */
+/* line 253, ../scss/base/_init.scss */
 .right-off-canvas-menu li {
   list-style-type: none;
   margin: 0;
@@ -10401,7 +10407,7 @@ ul.language-switcher-locale-url li.active {
   border-bottom: 1px solid #ffffff;
 }
 
-/* line 254, ../scss/base/_init.scss */
+/* line 260, ../scss/base/_init.scss */
 .right-off-canvas-menu li a {
   color: #003882;
   line-height: 0.85rem;
@@ -10410,12 +10416,12 @@ ul.language-switcher-locale-url li.active {
   margin-left: 0.5rem;
 }
 
-/* line 261, ../scss/base/_init.scss */
+/* line 267, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li li a {
   color: #FFFFFF;
 }
 
-/* line 264, ../scss/base/_init.scss */
+/* line 270, ../scss/base/_init.scss */
 .submitted-date {
   border-right: 1px solid #c2c2c2;
   padding-right: 12px;
@@ -10424,7 +10430,7 @@ ul.language-switcher-locale-url li.active {
   margin-bottom: 1rem;
 }
 
-/* line 271, ../scss/base/_init.scss */
+/* line 277, ../scss/base/_init.scss */
 .submitted-date .day, .submitted-date .month, .submitted-date .year {
   text-align: center;
   display: block;
@@ -10432,7 +10438,7 @@ ul.language-switcher-locale-url li.active {
   color: #898989;
 }
 
-/* line 278, ../scss/base/_init.scss */
+/* line 284, ../scss/base/_init.scss */
 .submitted-date .day {
   font-size: 2.2rem;
   line-height: 2rem;
@@ -10440,7 +10446,7 @@ ul.language-switcher-locale-url li.active {
   letter-spacing: -0.9px;
 }
 
-/* line 284, ../scss/base/_init.scss */
+/* line 290, ../scss/base/_init.scss */
 .blog-author {
   color: #898989;
   font-size: 0.7rem;
@@ -10448,25 +10454,25 @@ ul.language-switcher-locale-url li.active {
   text-transform: uppercase;
 }
 
-/* line 290, ../scss/base/_init.scss */
+/* line 296, ../scss/base/_init.scss */
 .node-blog h2 {
   margin: 0;
   font-size: 2.3125rem;
 }
 
-/* line 294, ../scss/base/_init.scss */
+/* line 300, ../scss/base/_init.scss */
 .node-blog h1 {
   margin: 0;
   font-size: 2.3125rem;
 }
 
-/* line 299, ../scss/base/_init.scss */
+/* line 305, ../scss/base/_init.scss */
 .page-blog #page-title,
 .page-blogs #page-title {
   display: none;
 }
 
-/* line 304, ../scss/base/_init.scss */
+/* line 310, ../scss/base/_init.scss */
 .node-blog .teaser-readmore {
   background: #003882;
   color: #fff;
@@ -10476,22 +10482,22 @@ ul.language-switcher-locale-url li.active {
   text-transform: uppercase;
 }
 
-/* line 313, ../scss/base/_init.scss */
+/* line 319, ../scss/base/_init.scss */
 .page-blog .blog-row {
   margin-bottom: 1.25rem;
 }
 
-/* line 318, ../scss/base/_init.scss */
+/* line 324, ../scss/base/_init.scss */
 .flexslider {
   margin-bottom: 1px !important;
 }
 
-/* line 323, ../scss/base/_init.scss */
+/* line 329, ../scss/base/_init.scss */
 .view-omr-des-mozaik {
   padding: 0;
 }
 
-/* line 327, ../scss/base/_init.scss */
+/* line 333, ../scss/base/_init.scss */
 ul.sf-menu li a {
   padding-bottom: 0;
   padding-left: 0.46rem;
@@ -10500,109 +10506,109 @@ ul.sf-menu li a {
   letter-spacing: 0.06rem;
 }
 
-/* line 335, ../scss/base/_init.scss */
+/* line 341, ../scss/base/_init.scss */
 .tab-bar .menu-icon span::after {
   box-shadow: 0 0 0 2px #0098DB, 0 10px 0 2px #0098DB, 0 20px 0 2px #0098DB;
 }
 
-/* line 339, ../scss/base/_init.scss */
+/* line 345, ../scss/base/_init.scss */
 .view-frontpagebanner {
   margin-bottom: 3.125rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
-/* line 345, ../scss/base/_init.scss */
+/* line 351, ../scss/base/_init.scss */
 .content-bottom {
   padding-top: 1.25rem;
   padding-bottom: 2.5rem;
   margin-bottom: 1.25rem;
   background: #003882;
 }
-/* line 350, ../scss/base/_init.scss */
+/* line 356, ../scss/base/_init.scss */
 .content-bottom p {
   color: #FFFFFF;
 }
-/* line 353, ../scss/base/_init.scss */
+/* line 359, ../scss/base/_init.scss */
 .content-bottom a {
   color: #003882;
 }
-/* line 355, ../scss/base/_init.scss */
+/* line 361, ../scss/base/_init.scss */
 .content-bottom a span {
   background: #A0CFEB;
   border-radius: 25px;
   padding: 0.8rem 1.3rem 0.4rem;
 }
-/* line 361, ../scss/base/_init.scss */
+/* line 367, ../scss/base/_init.scss */
 .content-bottom a:hover {
   color: #003882;
 }
-/* line 363, ../scss/base/_init.scss */
+/* line 369, ../scss/base/_init.scss */
 .content-bottom a:hover span {
   background: #FFFFFF;
   transition: background .25s ease-in-out;
   -moz-transition: background .25s ease-in-out;
   -webkit-transition: background .25s ease-in-out;
 }
-/* line 371, ../scss/base/_init.scss */
+/* line 377, ../scss/base/_init.scss */
 .content-bottom h3 {
   margin-top: 2.5rem;
 }
 
-/* line 377, ../scss/base/_init.scss */
+/* line 383, ../scss/base/_init.scss */
 .footer-second li {
   text-align: right;
 }
 
-/* line 380, ../scss/base/_init.scss */
+/* line 386, ../scss/base/_init.scss */
 .tab-bar .menu-icon span::after {
   left: 0;
 }
 
 /*Interaktiva delar\*/
-/* line 384, ../scss/base/_init.scss */
+/* line 390, ../scss/base/_init.scss */
 .interactive-iframe {
   /*width: 600px;*/
   border: none;
 }
 
-/* line 388, ../scss/base/_init.scss */
+/* line 394, ../scss/base/_init.scss */
 .interactive-iframe.dust {
   height: 400px;
   width: 600px;
 }
 
-/* line 392, ../scss/base/_init.scss */
+/* line 398, ../scss/base/_init.scss */
 .interactive-iframe.height {
   height: 450px;
   width: 600px;
 }
 
-/* line 396, ../scss/base/_init.scss */
+/* line 402, ../scss/base/_init.scss */
 .interactive-iframe.vibrations {
   height: 440px;
   width: 600px;
 }
 
-/* line 400, ../scss/base/_init.scss */
+/* line 406, ../scss/base/_init.scss */
 .interactive-iframe.safelift {
   height: 340px;
   width: 600px;
 }
 
-/* line 404, ../scss/base/_init.scss */
+/* line 410, ../scss/base/_init.scss */
 .interactive-iframe.noise {
   height: 360px;
   width: 600px;
 }
 
-/* line 408, ../scss/base/_init.scss */
+/* line 414, ../scss/base/_init.scss */
 .interactive-iframe.heavywork {
   height: 340px;
   width: 600px;
 }
 
-/* line 412, ../scss/base/_init.scss */
+/* line 418, ../scss/base/_init.scss */
 .interactive-iframe.energy {
   height: 350px;
   width: 600px;
@@ -10610,122 +10616,122 @@ ul.sf-menu li a {
 
 /*Overrides, extra mediaqueries*/
 @media only screen and (min-width: 60.063em) {
-  /* line 419, ../scss/base/_init.scss */
+  /* line 425, ../scss/base/_init.scss */
   .title-slogan {
     margin-top: 2rem;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 60em) {
-  /* line 426, ../scss/base/_init.scss */
+  /* line 432, ../scss/base/_init.scss */
   .title-slogan {
     margin-top: 4rem;
   }
 
-  /* line 429, ../scss/base/_init.scss */
+  /* line 435, ../scss/base/_init.scss */
   .l-main {
     margin-top: 120px;
   }
 
-  /* line 432, ../scss/base/_init.scss */
+  /* line 438, ../scss/base/_init.scss */
   .l-header-region .logo-wrapper {
     margin: 0;
     padding: 0;
   }
 
-  /* line 436, ../scss/base/_init.scss */
+  /* line 442, ../scss/base/_init.scss */
   .mozaik-text h3 {
     font-size: 0.9rem;
   }
 
-  /* line 439, ../scss/base/_init.scss */
+  /* line 445, ../scss/base/_init.scss */
   .mozaik-text p {
     font-size: 0.9rem;
     line-height: 1.1rem;
     /*padding-top: 0;*/
   }
 
-  /* line 444, ../scss/base/_init.scss */
+  /* line 450, ../scss/base/_init.scss */
   .mozaik-text h3 span {
     border-radius: 18px;
     padding: 0.6rem 0.9rem 0.4rem;
   }
 
-  /* line 448, ../scss/base/_init.scss */
+  /* line 454, ../scss/base/_init.scss */
   .mozaik-text {
     top: 28%;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 455, ../scss/base/_init.scss */
+  /* line 461, ../scss/base/_init.scss */
   .logo {
     margin-top: 0.8rem;
   }
 
-  /* line 458, ../scss/base/_init.scss */
+  /* line 464, ../scss/base/_init.scss */
   .title-slogan {
     margin-top: 1rem;
   }
 
-  /* line 461, ../scss/base/_init.scss */
+  /* line 467, ../scss/base/_init.scss */
   .l-main {
     margin-top: 70px;
   }
 
-  /* line 464, ../scss/base/_init.scss */
+  /* line 470, ../scss/base/_init.scss */
   .l-header-region .logo-wrapper {
     margin: 0;
     padding: 0;
   }
 
-  /* line 468, ../scss/base/_init.scss */
+  /* line 474, ../scss/base/_init.scss */
   .l-header {
     padding-bottom: 0.625rem;
     padding-top: 0.625rem;
   }
 
-  /* line 472, ../scss/base/_init.scss */
+  /* line 478, ../scss/base/_init.scss */
   .node-page img {
     margin-top: 1.25rem;
   }
 
-  /* line 476, ../scss/base/_init.scss */
+  /* line 482, ../scss/base/_init.scss */
   .mozaik-item img {
     width: 100%;
   }
 
-  /* line 479, ../scss/base/_init.scss */
+  /* line 485, ../scss/base/_init.scss */
   .mozaik-item {
     margin-bottom: 1.25rem;
   }
 
-  /* line 482, ../scss/base/_init.scss */
+  /* line 488, ../scss/base/_init.scss */
   .mozaik .row {
     margin-bottom: 0;
   }
 
-  /* line 485, ../scss/base/_init.scss */
+  /* line 491, ../scss/base/_init.scss */
   .mozaik-text {
     top: 30%;
   }
 
-  /* line 488, ../scss/base/_init.scss */
+  /* line 494, ../scss/base/_init.scss */
   .mozaik-text h3 {
     font-size: 1.4rem;
   }
 
-  /* line 491, ../scss/base/_init.scss */
+  /* line 497, ../scss/base/_init.scss */
   .mozaik-text p {
     font-size: 1.4rem;
     line-height: 1.4rem;
   }
 
-  /* line 495, ../scss/base/_init.scss */
+  /* line 501, ../scss/base/_init.scss */
   .mozaik-text h3 span {
     border-radius: 20px;
     padding: 0.8rem 1.3rem 0.5rem;
   }
 
-  /* line 499, ../scss/base/_init.scss */
+  /* line 505, ../scss/base/_init.scss */
   .footer-second li {
     text-align: center;
   }
