@@ -20,7 +20,7 @@
             <div class="row logo-wrapper">
 
                 <div class="logo columns small-10 medium-8 large-8">
-                    <a href="/"><img src="/sites/all/themes/tryggarebyggare/images/elearning-logo-2.png"></a>
+                    <?php if ($linked_logo): print $linked_logo; endif; ?>
                 </div>
 
                 <div class="tbguiden-logo columns medium-3 large-2 large-push-2 hide-for-small">
