@@ -2396,31 +2396,37 @@ a.flex-prev {
 }
 
 /* line 114, ../scss/components/_flexslider.scss */
+.flex-slider .flex-text img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 118, ../scss/components/_flexslider.scss */
 .flex-slider .flex-text h3, .flex-slider .flex-text h2 {
   color: #fff;
 }
 
-/* line 117, ../scss/components/_flexslider.scss */
+/* line 121, ../scss/components/_flexslider.scss */
 .flex-slider .flex-text span {
   background: #0098DB;
   padding: 1rem 1.7rem 0.6rem;
   border-radius: 30px;
 }
 
-/* line 122, ../scss/components/_flexslider.scss */
+/* line 126, ../scss/components/_flexslider.scss */
 .flex-slider .flex-text h2 {
   font-size: 1.7rem;
   margin-bottom: 2rem;
 }
 
-/* line 126, ../scss/components/_flexslider.scss */
+/* line 130, ../scss/components/_flexslider.scss */
 .flex-slider .flex-text h3 {
   text-shadow: 2px 2px 7px #333;
   font-size: 4rem;
   line-height: 4rem;
 }
 
-/* line 131, ../scss/components/_flexslider.scss */
+/* line 135, ../scss/components/_flexslider.scss */
 .flex-slider .flex-text p {
   font-family: Arial, serif;
   font-weight: 400;
@@ -2428,100 +2434,100 @@ a.flex-prev {
   text-shadow: 1px 1px 4px #000;
 }
 
-/* line 139, ../scss/components/_flexslider.scss */
+/* line 143, ../scss/components/_flexslider.scss */
 .flexslider .flex-direction-nav a {
   display: block;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 143, ../scss/components/_flexslider.scss */
+  /* line 147, ../scss/components/_flexslider.scss */
   .flex-slider .flex-big-image {
     height: 580px;
   }
 
-  /* line 146, ../scss/components/_flexslider.scss */
+  /* line 150, ../scss/components/_flexslider.scss */
   .flex-control-nav {
     /*display:  none;*/
   }
 
-  /* line 150, ../scss/components/_flexslider.scss */
+  /* line 154, ../scss/components/_flexslider.scss */
   .flex-slider .extra-wrapper {
     min-height: 580px;
     height: auto !important;
   }
 
-  /* line 155, ../scss/components/_flexslider.scss */
+  /* line 159, ../scss/components/_flexslider.scss */
   .flex-slider .flex-text p {
     font-size: 2.6rem;
     line-height: 3.5rem;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 162, ../scss/components/_flexslider.scss */
+  /* line 166, ../scss/components/_flexslider.scss */
   .flex-slider .flex-big-image {
     height: 480px;
   }
 
-  /* line 165, ../scss/components/_flexslider.scss */
+  /* line 169, ../scss/components/_flexslider.scss */
   .flex-control-nav {
     /*display:  none;*/
   }
 
-  /* line 169, ../scss/components/_flexslider.scss */
+  /* line 173, ../scss/components/_flexslider.scss */
   .flex-slider .extra-wrapper {
     min-height: 480px;
   }
 
-  /* line 173, ../scss/components/_flexslider.scss */
+  /* line 177, ../scss/components/_flexslider.scss */
   .flex-slider .flex-text p {
     font-size: 1.8rem;
     line-height: 2.5rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 179, ../scss/components/_flexslider.scss */
+  /* line 183, ../scss/components/_flexslider.scss */
   .flex-slider .flex-big-image {
     height: 400px;
   }
 
-  /* line 183, ../scss/components/_flexslider.scss */
+  /* line 187, ../scss/components/_flexslider.scss */
   .flex-direction-nav {
     display: none;
   }
 
-  /* line 186, ../scss/components/_flexslider.scss */
+  /* line 190, ../scss/components/_flexslider.scss */
   .flex-slider .extra-wrapper {
     min-height: 400px;
     height: auto !important;
     height: 400px;
   }
 
-  /* line 191, ../scss/components/_flexslider.scss */
+  /* line 195, ../scss/components/_flexslider.scss */
   .flex-slider .flex-text {
     padding-right: 1rem;
     padding-left: 1rem;
     top: 25%;
   }
 
-  /* line 196, ../scss/components/_flexslider.scss */
+  /* line 200, ../scss/components/_flexslider.scss */
   .flex-slider .flex-text p {
     font-size: 1.5rem;
     line-height: 1.8rem;
   }
 
-  /* line 200, ../scss/components/_flexslider.scss */
+  /* line 204, ../scss/components/_flexslider.scss */
   .flex-slider .flex-text h3 {
     font-size: 2.6rem;
     line-height: 2.8rem;
   }
 
-  /* line 204, ../scss/components/_flexslider.scss */
+  /* line 208, ../scss/components/_flexslider.scss */
   .flex-slider .flex-text span {
     padding: 0.8rem 1.4rem 0.6rem;
     border-radius: 20px;
   }
 
-  /* line 208, ../scss/components/_flexslider.scss */
+  /* line 212, ../scss/components/_flexslider.scss */
   .flex-slider .flex-text h2 {
     font-size: 1.3rem;
     margin-bottom: 2rem;

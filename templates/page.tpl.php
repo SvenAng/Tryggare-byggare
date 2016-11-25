@@ -1,3 +1,7 @@
+<?php
+    global $language;
+    $current_lang = $language->language;
+?>
 
 <!-- Off Canvas Menu -->
 <aside class="right-off-canvas-menu">
@@ -24,7 +28,11 @@
                 </div>
 
                 <div class="tbguiden-logo columns medium-3 large-2 large-push-2 hide-for-small">
-                    <a href="http://tb-guiden.monoclick-dev.se/" target="_blank"><img src="/sites/all/themes/tryggarebyggare/images/RamiSkolan_RGB_tb_3.png"></a>
+                    <?php if($current_lang == 'sv'): ?>
+                        <a href="http://safetyguide-ramirent.com/sv" target="_blank"><img src="/sites/all/themes/tryggarebyggare/images/RamiSkolan_RGB_tb_3.png"></a>
+                    <?php else: ?>
+                        <a href="http://safetyguide-ramirent.com/en" target="_blank"><img src="/sites/all/themes/tryggarebyggare/images/RamiSkolan_RGB_tb_3.png"></a>
+                    <?php endif; ?>
                 </div>
 
                 <nav class="tab-bar small-2 medium-1 columns hide-for-large-up">
